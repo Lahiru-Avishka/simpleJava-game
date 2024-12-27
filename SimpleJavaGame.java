@@ -12,8 +12,8 @@ public class SimpleJavaGame extends JPanel implements ActionListener, KeyListene
     private int playerY = 250;
     private int enemyX = 500;
     private int enemyY = 250;
-    private int playerSpeed = 10;
-    private int enemySpeed = 5;
+    private int playerSpeed = 15; // Increased player speed to make it easier
+    private int enemySpeed = 3;  // Reduced enemy speed to make it easier
     private boolean gameRunning = true;
 
     public SimpleJavaGame() {
